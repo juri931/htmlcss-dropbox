@@ -6,12 +6,6 @@
   list-style: none;
 }
 
-body{
-  text-align: center;
-  min-width: 100vw;
-  height: 100vh;
-}
-
 /* Top Menu Start */
 .top-menu{
   height: 50px;
@@ -109,3 +103,32 @@ ul{
   max-height: 400px;
 }
 /* Jumbotron End */
+
+
+/* Main Start */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+main section{
+  width: 55%;
+}
+
+main h2{
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.business-radio{
+  justify-content: space-between;
+}
+
+#year{
+  margin-left: 50px;
+}
+
+/* Main End */
