@@ -123,6 +123,7 @@ main h2{
   margin-bottom: 40px;
 }
 
+/* Business plan Start */
 .business-radio{
   justify-content: space-between;
 }
@@ -130,5 +131,91 @@ main h2{
 #year{
   margin-left: 50px;
 }
+
+.plan{
+  margin-top: 30px;
+  display: flex;
+}
+
+.plan div{
+  display: flex;
+  flex-flow: column;
+  width: 33%;
+}
+
+.box{
+  display: flex;
+  text-align: left;
+  border: 1.5px solid rgba(128, 128, 128, 0.397);
+  margin: 0 20px;
+  font-size: .85rem;
+}
+
+.box-title{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1.5px solid rgba(128, 128, 128, 0.397);
+}
+
+.box-content h3{
+  font-weight: 750;
+}
+
+.box span{
+  padding: 10px;
+  text-align: left;
+}
+
+.box-content p a{
+  color: purple;
+  text-decoration: underline;
+}
+
+.plan-trial{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  background-color: rgb(60, 103, 255);
+  font-weight: 500;
+}
+
+.bi.bi-check-lg{
+  color: rgb(60, 103, 255);
+  font-size: 1.2rem;"
+}
+
+.box.bottom{
+  display: flex;
+  flex-flow: column;
+  width: 52%;
+  margin-top: 20px;
+}
+
+.box.bottom .box-title{
+  width: 100%;
+}
+
+.box.bottom .content{
+  position: relative;
+  padding: 20px;
+}
+
+.box.bottom .content p{
+  width: 70%;
+}
+
+.box.bottom .content span{
+  text-align: center;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+  padding: 10px;
+  background-color: rgb(60, 103, 255);
+  font-weight: 500;
+}
+/* Business plan End */
+
+
 
 /* Main End */
