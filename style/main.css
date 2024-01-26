@@ -389,4 +389,30 @@ main h2{
 /* Customers End */
 
 
+/* FAQ Start */
+.faq{
+  display: flex;
+  flex-flow: column;
+  width: 64%;
+}
+
+.faq h1{
+  margin-bottom: 30px;
+}
+
+.faq ul{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+
+}
+
+.faq li{
+  display: flex;
+  margin: 20px 0;
+  font-weight: bold;
+  border-top: 2px solid lightgray;
+}
+/* FAQ End */
+
 /* Main End */
