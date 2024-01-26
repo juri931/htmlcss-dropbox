@@ -216,6 +216,177 @@ main h2{
 }
 /* Business plan End */
 
+/* Images Start */
+.images-container{
+  display: flex;
+  width: 52%;
+  margin: 100px 0;
+}
+
+.images-container img{
+  width: 60%;
+}
+
+.images-container span{
+  padding: 25px;
+}
+
+.images-container p{
+  margin: 10px 0;
+  font-size: .85rem;
+}
+
+.images-container a{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.images-container.grid{
+  display: flex;
+  flex-flow: column;
+}
+
+.grid-container{
+  display: flex;
+}
+
+.grid-container span{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.grid-container img{
+  width: 100%;
+}
+
+.grid-bottom{
+  width: 50%;
+}
+
+.grid-bottom a{
+  color: purple;
+  text-decoration: underline;
+}
+/* Images End */
+
+
+/* Customers Start */
+.customers{
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  margin-top: 100px;
+}
+
+.customers span{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.left, .right{
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+}
+
+.customers .left img, .right img{
+  width: 6rem;
+  filter: invert(100%);
+}
+
+#one{
+  border: 10px solid rgb(212, 231, 204);
+  background-color: rgb(171, 208, 153);
+}
+
+#two{
+  background-color: rgb(88, 27, 48);
+}
+
+#three{
+  background-color: rgb(73, 144, 205);
+}
+
+#four{
+  background-color: rgb(231, 64, 42);
+}
+
+#five{
+  background-color: rgb(191, 47, 42);
+}
+
+#six{
+  background-color: rgb(185, 206, 231);
+}
+
+#seven{
+  background-color: rgb(31, 42, 128);
+}
+
+#eight{
+  background-color: rgb(246, 216, 53);
+}
+
+.customers .middle{
+  display: flex;
+  position: relative;
+  text-align: left;
+  width: 500px;
+  height: 400px;
+  overflow: auto;
+}
+
+.middle-content{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.middle-content hr{
+  margin: 30px 0;
+  width: 40%;
+  color: lightgray;
+}
+
+.middle img{
+  width: 10rem;
+}
+
+.customers-bottom{
+  width: 1300px;
+  height: 200px;
+  background-color: rgb(185, 206, 231);
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center
+}
+
+.customers-bottom .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customers-bottom span{
+  display: flex;
+  width: 50%;
+  color: rgb(88, 26, 47);
+}
+
+.customers-bottom span:last-child{
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  background-color: white;
+  padding: 10px 20px;
+}
+/* Customers End */
 
 
 /* Main End */
