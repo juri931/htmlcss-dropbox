@@ -1,3 +1,3 @@
 htmlcss-dropbox
 ===
-Esercizio Dropbox (WIP)
+Esercizio Dropbox
