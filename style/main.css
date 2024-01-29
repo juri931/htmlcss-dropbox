@@ -92,7 +92,7 @@ a{
   margin-bottom: 30px;
 }
 
-.jumbo-container div span a{
+.jumbo-container .jumbo-text-small div span a{
   text-align: left;
   padding: 7px 10px;
   background-color: rgb(57, 99, 255);
@@ -100,7 +100,7 @@ a{
 }
 
 .bi-arrow-down-short{
-  display: flex;
+  color: black;
   font-size: 4rem;
 }
 
@@ -146,7 +146,7 @@ main h2{
 .plan div{
   display: flex;
   flex-flow: column;
-  width: 300px;
+  width: 200px;
 }
 
 .box{
@@ -187,17 +187,14 @@ main h2{
 
 .bi.bi-check-lg{
   color: rgb(60, 103, 255);
-  font-size: 1.2rem;"
+  font-size: 1.2rem;
 }
 
 .box.bottom{
   display: flex;
+  width: 680px;
   flex-flow: column;
   margin: 20px auto 0 auto;
-}
-
-.box.bottom .box-title{
-  width: 100%;
 }
 
 .box.bottom .content{
@@ -281,7 +278,7 @@ main h2{
 .customers{
   display: flex;
   justify-content: space-between;
-  width: 1300px;
+  width: 1200px;
   margin-top: 100px;
 }
 
@@ -342,7 +339,7 @@ main h2{
   display: flex;
   position: relative;
   text-align: left;
-  width: 500px;
+  width: 400px;
   height: 400px;
   overflow: auto;
 }
@@ -351,6 +348,7 @@ main h2{
   position: absolute;
   top: 30px;
   left: 30px;
+  right: 30px;
 }
 
 .middle-content hr{
@@ -364,7 +362,7 @@ main h2{
 }
 
 .customers-bottom{
-  width: 1300px;
+  width: 1200px;
   height: 200px;
   background-color: rgb(185, 206, 231);
   margin-bottom: 100px;
@@ -415,6 +413,7 @@ main h2{
 
 .faq li:hover{
   background-color: rgb(242, 242, 242);
+  transition: all 0.6s ease;
 }
 
 .faq .answer {
@@ -429,10 +428,6 @@ main h2{
 
 .faq h1{
   margin-bottom: 30px;
-}
-
-.faq ul{
-  list-style: none;
 }
 
 .faq li{
@@ -453,10 +448,10 @@ main h2{
 .faq i{
   position: absolute;
   right: 0;
-  top: 50px;
-  transform: translateY(-50%);
-  font-size: 1em;
+  top: 40px;
 }
+
+
 /* FAQ End */
 /* Main End */
 
@@ -471,7 +466,7 @@ footer{
 .footer-big-box{
   display: flex;
   margin: 0 auto;
-  width: 1000px;
+  width: 1060px;
   height: 300px;
 }
 
@@ -494,10 +489,14 @@ footer{
   margin: 5px 0;
 }
 
+.footer-container li a{
+  color: white;
+}
+
 .language-container{
   display: flex;
   margin: 0 auto;
-  width: 950px;
+  width: 1000px;
 }
 
 .language{
